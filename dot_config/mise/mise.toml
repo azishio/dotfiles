@@ -1,0 +1,51 @@
+# ============================================================
+# Linux開発環境セットアップ用 mise.toml
+# ============================================================
+
+[tools]
+
+# ==== 言語ランタイム ====
+rust = "latest"
+bun = "latest"
+node = "latest"              # Node.js（最新安定版）
+python = "latest"            # Python（最新安定版）
+
+# ==== Rust開発支援 ====
+"cargo:cross" = "latest"                 # クロスビルドツール（Docker/Podmanを利用）
+cargo-binstall = "latest"               # Rustバイナリ高速インストーラ
+"cargo:cargo-edit" = "latest"           # cargo add/rm/upgrade
+just = "latest"                         # Makefile代替のレシピ実行ツール
+"cargo:ouch" = "latest"                 # 圧縮/解凍ユーティリティ
+bottom = "latest"                       # btm: top風のシステムモニタ
+
+# ==== コンテナツール ====
+docker-cli = "latest"                  # Docker CLI（エンジンは既存のものを利用）
+docker-compose = "latest"              # Docker Compose v2
+nerdctl = "latest"                     # containerd用 Docker互換CLI（コンテナd環境向け）
+podman = "latest"                      # Red Hat系で主流な OCI コンテナエンジン
+
+# ==== データ処理 ====
+duckdb = "latest"                      # DuckDB CLI（カラム型データベース）
+rclone = "latest"
+
+# ==== エディタ関連 ====
+neovim = "latest"                      # Neovim本体（Astronvim対応）
+
+# ==== ターミナル・UI改善 ====
+starship = "latest"                    # 高機能プロンプト
+zellij = "latest"                      # tmux代替のターミナルマルチプレクサ
+
+# ==== CLIユーティリティ ====
+bat = "latest"                        # カラフルcat
+fd = "latest"                         # 高速find代替
+ripgrep = "latest"                    # 高速grep
+fzf = "latest"                         # ファジー検索
+zoxide = "latest"                     # cd補完・学習
+yq = "latest"                          # YAML処理
+jq = "latest"                          # JSON処理
+eza = "latest"                        # ls代替
+hyperfine = "latest"                  # コマンドベンチマーク
+codex = "latest"                      # 端末上で動く軽量AIコーディングエージェント
+tokei = "latest"
+"cargo:pv" = "latest"
+"chezmoi" = "latest"
