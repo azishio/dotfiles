@@ -3,9 +3,12 @@
 # ============================================================
 ~/.local/bin/mise activate fish | source
 
+# --- sudoに環境引き継ぎ
+alias sudo="sudo -E"
+
+
 # --- ls 系（eza）
 if type -q eza
-    # *ユーザーが追加オプションを書けるように alias の後ろ何もつけない*
     alias ls="eza -h --icons --group-directories-first"
     alias la="eza -lha --icons --group-directories-first --total-size"
     alias ll="eza -lha --icons --group-directories-first"
