@@ -18,12 +18,6 @@ just = "latest"                         # Makefile代替のレシピ実行ツー
 "cargo:ouch" = "latest"                 # 圧縮/解凍ユーティリティ
 bottom = "latest"                       # btm: top風のシステムモニタ
 
-# ==== コンテナツール ====
-docker-cli = "latest"                  # Docker CLI（エンジンは既存のものを利用）
-docker-compose = "latest"              # Docker Compose v2
-nerdctl = "latest"                     # containerd用 Docker互換CLI（コンテナd環境向け）
-podman = "latest"                      # Red Hat系で主流な OCI コンテナエンジン
-
 # ==== データ処理 ====
 duckdb = "latest"                      # DuckDB CLI（カラム型データベース）
 rclone = "latest"
