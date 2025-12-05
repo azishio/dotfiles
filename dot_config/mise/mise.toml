@@ -7,7 +7,7 @@
 # ==== 言語ランタイム ====
 rust = "latest"
 bun = "latest"
-node = 24 		             # Node.js（Active LTS）
+node = "24"		             # Node.js（Active LTS）
 python = "latest"            # Python（最新安定版）
 
 # ==== Rust開発支援 ====
