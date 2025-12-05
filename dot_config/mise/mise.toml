@@ -7,7 +7,7 @@
 # ==== 言語ランタイム ====
 rust = "latest"
 bun = "latest"
-node = "latest"              # Node.js（最新安定版）
+node = 24 		             # Node.js（Active LTS）
 python = "latest"            # Python（最新安定版）
 
 # ==== Rust開発支援 ====
@@ -17,6 +17,7 @@ cargo-binstall = "latest"               # Rustバイナリ高速インストー�
 just = "latest"                         # Makefile代替のレシピ実行ツール
 "cargo:ouch" = "latest"                 # 圧縮/解凍ユーティリティ
 bottom = "latest"                       # btm: top風のシステムモニタ
+"cargo:tokei" = "latest"
 
 # ==== データ処理 ====
 duckdb = "latest"                      # DuckDB CLI（カラム型データベース）
