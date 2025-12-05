@@ -29,6 +29,7 @@ neovim = "latest"                      # Neovim本体（Astronvim対応）
 # ==== ターミナル・UI改善 ====
 starship = "latest"                    # 高機能プロンプト
 zellij = "latest"                      # tmux代替のターミナルマルチプレクサ
+fish = "latest"
 
 # ==== CLIユーティリティ ====
 bat = "latest"                        # カラフルcat
